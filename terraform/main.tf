@@ -10,6 +10,7 @@ terraform {
 # Local state
 backend "local" {
     path = "terraform.tfstate"
+    }
 }
 
 provider "aws" {
@@ -24,5 +25,3 @@ provider "aws" {
     }
 }
 
-
-}
